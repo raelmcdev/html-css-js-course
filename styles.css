@@ -1,5 +1,5 @@
 .subscribe-button {
-  background-color: #f10909; 
+  background-color: #f10909;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -12,7 +12,7 @@
 }
 
 .join-button {
-  background-color: white; 
+  background-color: white;
   border-color: rgb(0, 89, 255);
   border-style: solid;
   color: rgb(0, 89, 255);
@@ -28,7 +28,7 @@
 }
 
 .tweet-button {
-  background-color: #1da1f2; 
+  background-color: #1da1f2;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -37,13 +37,62 @@
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 4px;
   border-radius: 50px;
   font-weight: bold;
 }
 
+.uber-button {
+  color: white;
+  background-color: #000000;
+  padding: 15px 32px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-to-cart-button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 216, 20);
+  padding: 15px 32px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.by-now-button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 164, 28);
+  padding: 15px 32px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.back-link{
+  color: rgb(0, 113, 133);
+  font-size: 20px;
+}
+
+.prize{
+  color: rgb(0, 118, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.delivery{
+  font-size: 18px;
+}
+
 .subscribe-button:hover {
-  background-color: #d10808; 
+  background-color: #d10808;
 }
 
 .join-button:hover {
@@ -52,5 +101,21 @@
 }
 
 .tweet-button:hover {
-  background-color: #0d8ecf; 
+  background-color: #0d8ecf;
+}
+
+.uber-button:hover {
+  background-color: #333333;
+}
+
+.add-to-cart-button:hover {
+  background-color: rgb(255, 200, 0);
+}
+
+.by-now-button:hover {
+  background-color: rgb(255, 140, 0);
+}
+
+.subscribe-button:active {
+  background-color: #b00707;
 }
